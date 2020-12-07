@@ -24,8 +24,8 @@ return (
                     <th><center>No.</center></th>
                     <th><center>Provinsi</center></th>
                     <th><center>Positif</center></th>
-                    <th><center>Sembuh</center></th>
-                    <th><center>Meninggal</center></th>
+                    <th><center>Recovered</center></th>
+                    <th><center>Death</center></th>
          
                 </tr>
                  {dataPro.map((item, index) => {

@@ -69,8 +69,8 @@ function App() {
                 <Route path="/Provinsi">
                     <Provinsi />
                 </Route>
-                <Route path="/Indo">
-                    <Indo />
+                <Route path="/Indonesia">
+                    <Indonesia />
                 </Route>
                 <Route path="/Global">
                     <Global />

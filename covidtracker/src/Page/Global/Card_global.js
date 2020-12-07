@@ -24,15 +24,15 @@ export default function Card_Global(){
 
     return (
         <div className="container">
-        <h1 className="card1">
+        <h1 className="card_a">
         <NumberFormat value={confirmed} thousandSeparator={true} displayType={'text'}/>
         <p>Positif</p>
         </h1>
-        <h1 className="card2">
+        <h1 className="card_b">
         <NumberFormat value={deaths} thousandSeparator={true} displayType={'text'}/>
         <p>Deaths</p>
         </h1>
-        <h1 className="card3">
+        <h1 className="card_c">
         <NumberFormat value={recovered} thousandSeparator={true} displayType={'text'}/>
         <p>Recovered</p>
         </h1>
