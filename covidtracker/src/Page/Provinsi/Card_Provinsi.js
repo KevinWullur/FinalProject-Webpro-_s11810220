@@ -18,28 +18,27 @@ export default function Card_Indonesia(){
     }, []);
 console.log (dataPro)
 return (
-<center>
-<table border="1">
-                <tr>
-                    <th><center>No.</center></th>
-                    <th><center>Provinsi</center></th>
-                    <th><center>Positif</center></th>
-                    <th><center>Sembuh</center></th>
-                    <th><center>Meninggal</center></th>
-         
-                </tr>
-                 {dataPro.map((item, index) => {
-                  return(
-                      <tr classNames="tr">
-                          <th scope="row" key={item.fid}><center>{index + 1}.</center></th>
-                         <th> <center>{item.provinsi}</center></th>
-                          <th><center><NumberFormat value={item.kasusPosi} thousandSeparator={true} displayType={'text'}/></center></th>
-                          <th><center><NumberFormat value={item.kasusSemb} thousandSeparator={true} displayType={'text'}/></center></th>
-                         <th><center><NumberFormat value={item.kasusMeni} thousandSeparator={true} displayType={'text'}/></center></th>
-                       </tr>
-                 )
-             })}
-           </table>
-           </center>
+  <center>
+    <table border="1">
+      <tr>
+        <th><center>No.</center></th>
+        <th><center>Provinsi</center></th>
+        <th><center>Positive</center></th>
+        <th><center>Recoverd</center></th>
+        <th><center>Death</center></th>
+      </tr>
+        {dataPro.map((item, index) => {
+          return(
+            <tr classNames="tr">
+            <th scope="row" key={item.fid}><center>{index + 1}.</center></th>
+            <th> <center>{item.provinsi}</center></th>
+            <th><center><NumberFormat value={item.kasusPosi} thousandSeparator={true} displayType={'text'}/></center></th>
+            <th><center><NumberFormat value={item.kasusSemb} thousandSeparator={true} displayType={'text'}/></center></th>
+            <th><center><NumberFormat value={item.kasusMeni} thousandSeparator={true} displayType={'text'}/></center></th>
+            </tr>
+          )
+      })}
+    </table>
+  </center>
 )
 }

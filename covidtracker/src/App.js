@@ -39,7 +39,7 @@ function App() {
                     <ul>
                         <li>
                         <Link to="/">
-                        Home
+                        Home Page
                         </Link>
                         </li>
                         <li>
@@ -54,7 +54,7 @@ function App() {
                         </li>
                         <li>
                         <Link to="/Provinsi">
-                        Provinsi
+                        Provinsi Indonesia
                         </Link>
                         </li>
                     </ul> 

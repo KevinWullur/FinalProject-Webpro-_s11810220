@@ -50,14 +50,14 @@ display: flex;
 }
 .card_a{
   justify-content: center;
-  font-size: 25px  ;
-  width: 250px;
-  height: 150px;
   text-align: center;
   margin: 2px;
-  padding: 40px;
+  padding: 20px;
   border-radius: 10px;
   border-width: px;
+  font-size: 25px  ;
+  width: 175px;
+  height: 200px;
   border-color: black;
   font-weight: bold;
   background-color:rgb(25, 209, 194);
@@ -66,13 +66,13 @@ display: flex;
 
 .card_b{
   font-size: 25px  ;
-  width: 250px;
-  height: 150px;
   text-align: center;
   margin: 2px;
-  padding: 40px;
+  padding: 20px;
   border-radius: 10px;
   border-width: px;
+  width: 175px;
+  height: 200px;
   border-color: black;
   font-weight: bold;
   background-color:rgb(10, 10, 10);
@@ -81,13 +81,13 @@ display: flex;
 
 .card_c{
   font-size: 25px ;
-  width: 250px;
-  height: 150px;
   text-align: center;
   margin: 2px;
-  padding: 40px;
+  padding: 20px;
   border-radius: 10px;
   border-width: px;
+  width: 175px;
+  height: 200px;
   border-color: black;
   font-weight: bold;
   background-color:rgb(57, 192, 16);
@@ -95,8 +95,8 @@ display: flex;
 }
 
 .container{
-display: flex;
-justify-content: center;
-text-align: center;
-margin: 50px;
+  justify-content: center;
+  text-align: center;  
+  display: flex;
+  margin: 35px;
 }

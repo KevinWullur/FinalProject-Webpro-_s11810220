@@ -12,9 +12,9 @@ export default function Card_Indonesia(){
       .get("https://indonesia-covid-19.mathdro.id/api")
       .then(response => {
         console.log(response)
-        setConfirmed(response.data.confirmed)
-        setRecovered(response.data.recovered)
-        setDeaths(response.data.deaths)
+        setConfirmed(response.data.perawatan)
+        setRecovered(response.data.sembuh)
+        setDeaths(response.data.meninggal)
         
       })
       .catch(err => {
