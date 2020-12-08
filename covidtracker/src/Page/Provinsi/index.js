@@ -11,5 +11,4 @@ const Provinsi = () => {
             </div>
     )
 }
-
 export default Provinsi;

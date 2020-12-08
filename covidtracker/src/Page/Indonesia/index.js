@@ -11,5 +11,4 @@ const Indonesia = () => {
         </div> 
     )
 }
-
 export default Indonesia;

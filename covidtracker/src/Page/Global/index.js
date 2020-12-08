@@ -11,5 +11,4 @@ const Global = () =>{
     </div>
     )
 }
-
 export default Global;
