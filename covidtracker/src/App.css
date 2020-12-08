@@ -37,6 +37,10 @@
   }
 } */
 
+body{
+  background-image: url('https://ane4bf-datap1.s3-eu-west-1.amazonaws.com/wmocms/s3fs-public/advanced_page/featured_media/Coronavirus_Covid-19.png?vCjLR.RArC5_6o55iUgPMiFGiHw4P2ne')
+}
+
 .card0{
   width: 250px;
   height: 150px;
@@ -56,7 +60,7 @@ display: flex;
   border-width: px;
   border-color: black;
   font-weight: bold;
-  background-color:rgb(0, 81, 255);
+  background-color:rgb(25, 209, 194);
   color: rgb(255, 255, 255);
 }
 
@@ -71,7 +75,7 @@ display: flex;
   border-width: px;
   border-color: black;
   font-weight: bold;
-  background-color:rgb(0, 81, 255);
+  background-color:rgb(10, 10, 10);
   color: rgb(255, 255, 255);
 }
 
@@ -86,7 +90,7 @@ display: flex;
   border-width: px;
   border-color: black;
   font-weight: bold;
-  background-color:rgb(0, 81, 255);
+  background-color:rgb(57, 192, 16);
   color: rgb(255, 255, 255);
 }
 

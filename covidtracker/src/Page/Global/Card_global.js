@@ -1,8 +1,8 @@
 import axios from 'axios';
-import NumberFormat from "react-number-format";
 import React, { useState, useEffect } from 'react';
+import NumberFormat from "react-number-format";
 
-export default function Card_Global(){
+export default function Card_global(){
   const [confirmed, setConfirmed] = useState("");
   const [recovered, setRecovered] = useState("");
   const [deaths, setDeaths] = useState("");
@@ -26,7 +26,7 @@ export default function Card_Global(){
         <div className="container">
         <h1 className="card_a">
         <NumberFormat value={confirmed} thousandSeparator={true} displayType={'text'}/>
-        <p>Positif</p>
+        <p>Positive</p>
         </h1>
         <h1 className="card_b">
         <NumberFormat value={deaths} thousandSeparator={true} displayType={'text'}/>

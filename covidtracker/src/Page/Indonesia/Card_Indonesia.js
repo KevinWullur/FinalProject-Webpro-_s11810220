@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import NumberFormat from "react-number-format";
 
-export default function CardIndonesia(){
+export default function Card_Indonesia(){
   const [confirmed, setConfirmed] = useState("");
   const [recovered, setRecovered] = useState("");
   const [deaths, setDeaths] = useState("");
@@ -26,9 +26,9 @@ return (
 <div className="container">
   <h1 className="card_a">
   <NumberFormat value={confirmed} thousandSeparator={true} displayType={'text'}/>
-  <p>Positif</p>
+  <p>Positive</p>
   </h1>
-  <h1 className="card_B">
+  <h1 className="card_b">
   <NumberFormat value={deaths} thousandSeparator={true} displayType={'text'}/>
   <p>Death</p>
   </h1>

@@ -27,7 +27,7 @@
 import React from 'react'
 import './App.css'
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom'
-import { Global, Indonesia, Provinsi } from './pages'
+import { Global, Indonesia, Provinsi } from './Page'
 
 function App() {
     return (
@@ -64,7 +64,6 @@ function App() {
         <center>
             <Switch>
             <Route exact path="/">
-                <Homepage/>
             </Route>
                 <Route path="/Provinsi">
                     <Provinsi />
@@ -82,3 +81,5 @@ function App() {
         </Router>
     )
 }
+
+export default App

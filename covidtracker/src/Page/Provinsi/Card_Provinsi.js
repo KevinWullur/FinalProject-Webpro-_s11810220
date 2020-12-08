@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import NumberFormat from 'react-number-format'
 
-export default function CardIndonesia(){
+export default function Card_Indonesia(){
   const [dataPro, provinsiList] = useState([]);
 
     useEffect(() => {
@@ -19,13 +19,13 @@ export default function CardIndonesia(){
 console.log (dataPro)
 return (
 <center>
-<table border="10">
+<table border="1">
                 <tr>
                     <th><center>No.</center></th>
                     <th><center>Provinsi</center></th>
                     <th><center>Positif</center></th>
-                    <th><center>Recovered</center></th>
-                    <th><center>Death</center></th>
+                    <th><center>Sembuh</center></th>
+                    <th><center>Meninggal</center></th>
          
                 </tr>
                  {dataPro.map((item, index) => {

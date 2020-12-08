@@ -1,5 +1,5 @@
 import React from 'react'
-import CardProvinsi from './CardProvinsi';
+import Card_Provinsi from './Card_Provinsi';
 
 const Provinsi = () => {
     return (
@@ -7,7 +7,7 @@ const Provinsi = () => {
            <div className="container mypanel text-center">
                 <h1 style={{ fontFamily: "serif", fontSize: "60px" }}>Kasus Covid 19 di Provinsi Indonesia</h1>
             </div>
-                <CardProvinsi/>
+                <Card_Provinsi/>
             </div>
     )
 }

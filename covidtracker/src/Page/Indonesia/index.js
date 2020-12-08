@@ -1,5 +1,5 @@
 import React from 'react'
-import CardIndonesia from './CardIndonesia';
+import Card_Indonesia from './Card_Indonesia';
 
 const Indonesia = () => {
     return (
@@ -7,7 +7,7 @@ const Indonesia = () => {
         <div className="container mypanel text-center">
             <h1 style={{ fontFamily: "serif", fontSize: "60px" }}> Kasus Covid 19 di Indonesia</h1>
         </div>
-            <CardIndonesia/>
+            <Card_Indonesia/>
         </div> 
     )
 }

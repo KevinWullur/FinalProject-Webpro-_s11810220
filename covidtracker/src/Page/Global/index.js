@@ -1,5 +1,5 @@
 import React from 'react';
-import CardGlobal from './CardGlobal';
+import Card_global from './Card_global';
 
 const Global = () =>{
     return(
@@ -7,7 +7,7 @@ const Global = () =>{
     <div className="container mypanel text-center">
     <h1 style={{ fontFamily: "Serif", fontSize: "60px" }}>Covid 19 Cases in the World</h1>
     </div>
-        <CardGlobal/>
+        <Card_global/>
     </div>
     )
 }
